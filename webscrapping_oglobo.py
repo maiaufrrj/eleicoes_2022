@@ -34,4 +34,4 @@ def create_dataframe():
     return data
 
 data=create_dataframe()
-data.to_excel('resultados_eleicoes_2022_turno1.xlsx', index=False)
+data.to_excel('eleicoes_2022_turno1.xlsx', index=False)
