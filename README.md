@@ -5,3 +5,5 @@ fontes:
 
 
 O objetivo do presente trabalho é entender como o brasileiro vota e identificar possíveis padrões ou anomalias.
+
+O arquivo dataviz_1.py carece de limpeza e documentação mais detalhada.
