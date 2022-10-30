@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 def consulta_por_estado(uf):
-    r = requests.get(f'https://infograficos-eleicoes-oglobo.s3.amazonaws.com/2022/1-turno/mapa/presidente/municipios/{uf}.json')
+    r = requests.get(f'https://infograficos-eleicoes-oglobo.s3.amazonaws.com/2022/2-turno/mapa/presidente/municipios/{uf}.json')
     data = r.json().get('m')
     lista_municipio = []
     lista_candidato = []
